@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.myapp.mobile" version="1.8" xmlns="http://www.w3.org/ns/widgets">
+	<name>Repense sua Lavadora - Panasonic</name>
+	<description>A Fernanda Lima sabe tudo sobre a lavadora de roupas dela! E agora é sua vez de saber um pouco mais sobre as Lavadoras Panasonic!</description>
+	<author email="contato@rtpublicity.com.br" href="http://rtpublicity.com.br/sites/panasonic/p3-ipad">Repense sua Lavadora - Panasonic</author>
+	<preference name="phonegap-version" value="cli-6.5.0" />
+	<preference name="permissions" value="none" />
+	<preference name="orientation" value="landscape" />
+	<preference name="target-device" value="universal" />
+	<preference name="fullscreen" value="true" />
+
+	<plugin name="cordova-plugin-inappbrowser" spec="1.6.1" />
+	<plugin name="cordova-plugin-device" spec="1.1.4" />
+	<plugin name="cordova-plugin-splashscreen" spec="4.0.1" />
+	<plugin name="cordova-plugin-whitelist" source="npm" spec="1.3.2" />
+	<allow-navigation href="*" />
+	<allow-intent href="*" />
+	<access origin="*" /> <!-- Required for iOS9 -->
+
+	<icon src="icon.png" width="512" height="512" /> 
+
+	<platform name="ios">
+		<!-- iPad -->
+		<icon src="res/icon/ios/icon-76.png" width="76" height="76" />
+		<icon src="res/icon/ios/icon-76@2x.png" width="152" height="152" />
+		<icon src="res/icon/ios/icon-83.5@2x.png" width="167" height="167" />
+	</platform>
+</widget>
